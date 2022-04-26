@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular12';
+  data = "Data Value Interpolation";
+
+  getInterpolationValue(){
+    return "This is return value from Interpolation function!";
+  }
+
 }
